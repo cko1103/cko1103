@@ -3,31 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <title>ShowReel - In Ah Ko</title>
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <h1>Chloe Ko - FX Artist & 3D Motion Designer</h1>
-        <nav>
-            <a href="index.html">ShowReel</a>
-            <a href="work.html">Work</a>
-            <a href="about.html">About</a>
-            <a href="resume.html">Resume</a>
-            <a href="drawings.html">Drawings</a>
-        </nav>
+        <div class="header-content">
+            <div class="logo">
+                <h1>Chloe Ko</h1>
+                <span class="tagline">CG Generalist</span>
+            </div>
+            <nav>
+                <a href="index.html">ShowReel</a>
+                <a href="work.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a href="drawings.html">Drawings</a>
+            </nav>
+        </div>
     </header>
+    
 
     <!-- Main Section with Vimeo Video -->
     <main>
-        <p>You can find breakdowns for my works on the "Work" tab of this website!</p>
+        
         <section class="video-section">
+            <p>You can find breakdowns for my works on the "Work" tab of this website!</p>
+            <div class="spacer"></div> 
             <h2>“Cycle” Thesis Film</h2>
             <div class="video-container">
                 <iframe src="https://player.vimeo.com/video/806615040?h=d1756ec863&autopause=0" 
@@ -35,16 +44,18 @@
                         allowfullscreen></iframe>
             </div>
             <p>Password: 1103</p>
-            <p><strong>Cycle (2023)</strong> Student Thesis Film</p>
+            <p><strong>Cycle (2023)</strong> - Student Thesis Film</p>
             <p>Responsible for all aspects, using Houdini, Redshift, and Nuke.</p>
         </section>
 
         <!-- Description Section -->
         <section class="description">
+            <div class="linespacer"></div>
             <h3>Pitch</h3>
             <p>Somewhere in the vast universe, a supernova explosion occurs. An asteroid from the explosion lands on a nearby planet, triggering new life. My thesis film "Cycle" was inspired by the idea that we are all children of the stars, and life cycles through the universe.</p>
             <p>When supernovae explode, these blasts produce much of the material in the universe - including some elements like iron, which make up our planet and even ourselves. </p>
             <p>My thesis film "Cycle" was inspired by this idea, that we are all children of the stars, and life cycles through the universe.</p>
+            <div class="linespacer"></div>
             <h3>Awards</h3>
             <ul>
                 <li>Film of Distinction 2023 - BFA Computer Art School of Visual Arts</li>
@@ -60,8 +71,23 @@
     </main>
 
     <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 Chloe In Ah Ko</p>
-    </footer>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/chloeko_sva" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:chloeko.work@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/chloe-ko-1103/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+    <p>&copy; 2024 Chloe In Ah Ko</p>
+</footer>
+
+
+
 </body>
 </html>
