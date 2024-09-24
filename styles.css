@@ -1,4 +1,4 @@
-/* General styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,48 +16,78 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
-.about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    max-width: 1200px;
-    padding: 20px;
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
 }
 
-.profile-image {
-    flex: 1;
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Video Section */
+.video-section {
     text-align: center;
+    padding: 50px;
 }
 
-.profile-image img {
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    max-width: 400px;
+    height: 100%;
+}
+
+.video-section p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+/* Description Section */
+.description {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.about-text {
-    flex: 2;
-    padding-left: 40px;
+.description h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
 }
 
-.about-text p {
+.description p, .description ul {
     line-height: 1.6;
-    margin-bottom: 20px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .about-container {
-        flex-direction: column;
-        text-align: center;
-    }
+.description ul {
+    padding-left: 20px;
+}
 
-    .about-text {
-        padding-left: 0;
-    }
+.description ul li {
+    list-style: square;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
 }
